@@ -4,10 +4,10 @@ import seaborn as sns
 from scipy.stats import pearsonr
 
 tips =pd.read_csv("Tips.csv")
-ax = sns.stripplot(x="day", y="total_bill", data=tips, jitter=0.05)
 
 
-list1 = tips['tips']
+
+list1 = tips['tip']
 list2 = tips['total_bill']
 
 
